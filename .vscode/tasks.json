@@ -1,0 +1,18 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Sync CursorContext to Documents",
+      "type": "shell",
+      "command": "QUIET=1 bash Documents/CursorContext/scripts/install-to-documents.sh",
+      "presentation": {
+        "reveal": "silent",
+        "showReuseMessage": false,
+        "close": true
+      },
+      "runOptions": {
+        "runOn": "folderOpen"
+      }
+    }
+  ]
+}

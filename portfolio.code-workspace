@@ -1,0 +1,17 @@
+{
+  "folders": [
+    {
+      "name": "portfolio",
+      "path": "."
+    },
+    {
+      "name": "CursorContext (Documents)",
+      "path": "${userHome}/Documents/CursorContext"
+    }
+  ],
+  "settings": {
+    "files.watcherExclude": {
+      "**/.obsidian/workspace.json": true
+    }
+  }
+}

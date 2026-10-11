@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+set -euo pipefail
+ROOT="$(git rev-parse --show-toplevel)"
+QUIET=1 bash "$ROOT/Documents/CursorContext/scripts/install-to-documents.sh" || true
