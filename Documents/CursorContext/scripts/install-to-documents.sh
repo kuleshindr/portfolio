@@ -94,6 +94,13 @@ PY
 
 merge_mcp
 
+if [[ "$(uname -s)" == "Darwin" ]] && command -v open >/dev/null 2>&1; then
+  open "obsidian://open?path=$(python3 -c "import urllib.parse,sys; print(urllib.parse.quote(sys.argv[1]))" "$VAULT")" 2>/dev/null || true
+  if [[ ! -f "$VAULT/.obsidian/plugins/obsidian-local-rest-api/manifest.json" ]]; then
+    open "obsidian://show-plugin?id=obsidian-local-rest-api" 2>/dev/null || true
+  fi
+fi
+
 if [[ "$QUIET" != "1" ]]; then
   cat << EOF
 
