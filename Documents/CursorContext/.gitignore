@@ -1,0 +1,18 @@
+# Obsidian local state (keep vault portable)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/hotkeys.json
+.obsidian/appearance.json
+.trash/
+
+# Secrets — never commit
+.env
+.env.*
+**/secrets.md
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local MCP key copy
+.cursor/mcp.local.json
