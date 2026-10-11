@@ -8,6 +8,19 @@
 - **Полный путь Mac:** `/Users/dmitrijkulesin/Documents/CursorContext/10-Projects/Работа/00 Home — Работа.md`
 - **Cloud Agent:** `@Documents/CursorContext/10-Projects/Работа/00 Home — Работа.md`
 
+## Если в Obsidian `10-Projects/10-Projects/` (лишняя вложенность)
+
+Так бывает, если папку `10-Projects` из репо перетащили **внутрь** уже существующей `10-Projects`.
+
+```bash
+cd ~/Documents/CursorContext   # vault
+bash scripts/fix-nested-10-projects.sh
+# или из clone portfolio:
+bash Documents/CursorContext/scripts/fix-nested-10-projects.sh
+```
+
+Должно быть: `10-Projects/Работа/`, **не** `10-Projects/10-Projects/Работа/`.
+
 ## Синхронизация Mac ↔ GitHub
 
 ```bash
