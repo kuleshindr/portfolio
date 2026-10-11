@@ -1,0 +1,15 @@
+---
+description: Rules for markdown context vault — local and cloud agents
+globs: "**/*.md"
+alwaysApply: false
+---
+
+# Context vault (markdown)
+
+You are editing the user's **Cursor Context Vault** (Obsidian-compatible).
+
+- Prefer updating existing notes over creating duplicates; search `10-Projects/` and `20-Context/` first.
+- Follow structure and triggers in `AGENTS.md` at vault root.
+- Use YAML frontmatter on new notes; keep bodies scannable (headings, bullets).
+- Cloud agents: file tools only (no Obsidian MCP). Local agents: file edits first; MCP optional when available.
+- Never store secrets in notes.
