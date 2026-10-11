@@ -51,4 +51,8 @@ project: optional-slug
 
 ## Индекс проектов
 
+| Slug | MOC |
+|------|-----|
+| `Работа` | `10-Projects/Работа/00 Home — Работа.md` — Иран, РФК/Каманin, Premiere, Meta |
+
 При появлении нового проекта создай `10-Projects/<slug>/README.md` с одной строкой описания и ссылками на `decisions.md`, `notes.md`.
