@@ -1,0 +1,3 @@
+{
+  "install": "QUIET=1 bash Documents/CursorContext/scripts/install-to-documents.sh || true"
+}

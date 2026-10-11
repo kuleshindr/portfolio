@@ -1,0 +1,11 @@
+---
+description: Use CursorContext vault for persistent user context
+globs: "Documents/CursorContext/**/*.md"
+alwaysApply: false
+---
+
+# Portfolio + context vault
+
+- Long-lived context lives in `Documents/CursorContext/` (also deployed to `~/Documents/CursorContext` on Mac).
+- Read `Documents/CursorContext/AGENTS.md` before non-trivial work.
+- After important decisions, update vault markdown (cloud agents: files only; local Mac: optional Obsidian MCP).

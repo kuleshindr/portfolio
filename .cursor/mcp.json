@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "obsidian": {
+      "url": "https://127.0.0.1:27124/mcp/",
+      "headers": {
+        "Authorization": "Bearer ${env:OBSIDIAN_API_KEY}"
+      }
+    }
+  }
+}
